@@ -1,4 +1,4 @@
-echo( stages {
+echo( 'stages {
         stage('Build') { 
             steps { 
                 sh 'make' 
@@ -15,5 +15,5 @@ echo( stages {
                 sh 'make publish'
             }
         }
-    }
-})
+    }'
+     )
