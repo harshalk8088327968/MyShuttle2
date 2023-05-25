@@ -15,5 +15,4 @@ echo( 'stages {
                 sh 'make publish'
             }
         }
-    }'
-     )
+    }')
