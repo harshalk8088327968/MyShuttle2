@@ -1,1 +1,3 @@
-echo('pipeline stage('Build') steps { echo 'Building..' } stage('Test') steps { echo 'Testing..' } stage('Deploy') { steps { echo 'Deploying....' } ')
+cho('this is a ci/cd pipline')
+echo(Application is deployed ')
+echo('Deployed application is successfully added  to the local host: 93.456.85.00 : time 9.10 :20.58s')
